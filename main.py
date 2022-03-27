@@ -6,7 +6,7 @@ print(pyToBeTested.product(5,1))
 
 class TestStringMethods(unittest.TestCase):
 
-    def test_upper(self):
+    def test_upper(self): #try
         '''test_upper'''
         self.assertEqual(pyToBeTested.product(20,0), 0)
 
